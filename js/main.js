@@ -1,12 +1,14 @@
 (function(){
 	var $selectForm,
 		$closeDialog,
-		$bgDialog;
+		$bgDialog,
+		$disabled;
 
 	$(function(){
 		$selectForm = $('.select-form');
 		$closeDialog = $('.close-dialog');
 		$bgDialog = $('.bg-dialog');
+		$disabled = $('.disabled');
 
 		$selectForm.on('change', 'select', function(){
 			var $span = $(this).closest('.select-form').find('span');
@@ -18,6 +20,11 @@
 			if ($(elem).hasClass('close-dialog')){
 				closeDialog();
 			}
+		});
+
+		$disabled.on('click', function(e){
+			e.preventDefault();
+			return false;
 		});
 	});
 

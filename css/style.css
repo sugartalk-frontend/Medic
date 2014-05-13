@@ -3,7 +3,7 @@
 html, body {height: 100%;}
 
 body {font-family: 'PT Sans', sans-serif; color: #3e3e3e; font-size: 16px;}
-textarea, button, input {font-family: 'PT Sans', sans-serif;}
+pre, textarea, button, input {font-family: 'PT Sans', sans-serif;}
 
 ._display_none {display: none;}
 ._text_center {text-align: center;}
@@ -51,6 +51,8 @@ textarea, button, input {font-family: 'PT Sans', sans-serif;}
 .btn.blue-light:hover {background: linear-gradient(#67a0b8, #9dc5d5);}
 .btn.big {padding: 0 25px 0 25px; height: 53px; line-height: 53px;}
 .btn.big-br {padding: 8px 25px 0 25px; height: 45px; line-height: 16px;}
+.btn:disabled:hover, .btn:disabled, .btn.disabled:hover,
+.btn.disabled {background: linear-gradient(#d5d5d5, #b9baba); border: 0; box-shadow: none; cursor: default;}
 
 .hfooter {height: 42px;}
 .footer {height: 42px; background-color: #128a5e; width: 100%; margin: -42px 0 0 0; line-height: 0px;}
@@ -104,6 +106,7 @@ textarea, button, input {font-family: 'PT Sans', sans-serif;}
 .duty-add .resolution-block {width: 686px; margin: 0 0 30px 0;}
 .duty-add .resolution-block p {color: #7c7c7c;}
 .duty-add .resolution-block textarea {width: 100%; height: 90px; border: 1px solid #c7c7c7; padding: 5px 9px 5px 9px; color: #3e3e3e;}
+.duty-add .resolution-block pre {display: table-cell; text-align: center; border: 2px solid #9d9d9d; height: 100px; font-size: 24px; width: 686px; vertical-align: middle;}
 .duty-add .btn {margin: 0 50px 0 0; padding: 0 40px 0 40px;}
 
 .duty-alarm-dialog {border: 3px solid #c81f22; width: 679px; height: 575px; padding: 0 90px 0 90px;}
