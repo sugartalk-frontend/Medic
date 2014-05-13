@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+	<meta charset="UTF-8" />
+	<title></title>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="wspace">
+	<div class="header">
+		<div class="container">
+			<div class="title-head">Поиск сотрудника</div>
+			<div class="head-search-form">
+				<label>Ф.И.О.
+					<input class="input-search-fio" type="text" name="fio" value="Преображенский Константин Митрофанович" />
+				</label>
+				<label>
+					Дата рождения
+				</label>
+				<div class="select-form select-day">
+					<span class="select-text">01</span>
+					<select name="day">
+						<option value="01">01</option>
+						<option value="02">02</option>
+						<option value="03">03</option>
+						<option value="04">04</option>
+						<option value="23">23</option>
+					</select>
+				</div>
+				<div class="select-form select-month">
+					<span class="select-text">января</span>
+					<select name="month">
+						<option value="января">января</option>
+						<option value="декабря">декабря</option>
+					</select>
+				</div>
+				<div class="select-form select-year">
+					<span class="select-text">1972</span>
+					<select name="year">
+						<option value="1972">1972</option>
+					</select>
+				</div>
+				<a type="button" class="btn green bold f18 w96">Найти</a>
+				<a type="button" class="btn green f18 inset">Отмена</a>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="system-info-container">
+			<h1>Состояние системы</h1>
+			<div class="clear">
+				<div class="_left">
+					<h2>Количество людей в шахте</h2>
+					<table cellpadding="0" cellspacing="0">
+						<thead>
+							<tr>
+								<td><div>Всего</div></td>
+								<td><div>Сотрудников</div></td>
+								<td><div>Гостей</div></td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th><div>354</div></th>
+								<td><div>350</div></td>
+								<td><div>2</div></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="_right">
+					<h2>Прошло медосмотр на текущий момент</h2>
+					<table cellpadding="0" cellspacing="0">
+						<thead>
+						<tr>
+							<td rowspan="2"><div>Допущено</div></td>
+							<td colspan="3"><div><i></i><span>Не допущено</span><i></i></div></td>
+						</tr>
+						<tr>
+							<td><div>Всего</div></td>
+							<td><div>По мед. показаниям</div></td>
+							<td><div>По результатам алкотеста</div></td>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<th><div>354</div></th>
+							<th><div>350</div></th>
+							<td><div>2</div></td>
+							<td><div>0</div></td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<a class="btn blue bold big-br">Выгрузить смену<br />из файла</a>
+		</div>
+	</div>
+	<div class="hfooter">
+	</div>
+</div>
+<div class="footer">
+	<div class="container">
+		<div class="clear">
+			<ul class="_left">
+				<li class="logo-footer"></li>
+				<li class="separator"></li>
+				<li class="data-time">07:28 12.06.2014</li>
+				<li class="separator"></li>
+				<li>Рудник <b>“Центральный”</b></li>
+			</ul>
+			<ul class="_right">
+				<li>Врач <b>Новоалексеевский Виктор Константинович</b></li>
+				<li><a class="btn green inset">Выход</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -2,7 +2,7 @@
 
 html, body {height: 100%;}
 
-body {font-family: 'PT Sans', sans-serif; color: #3e3e3e;}
+body {font-family: 'PT Sans', sans-serif; color: #3e3e3e; font-size: 16px;}
 button, input {font-family: 'PT Sans', sans-serif;}
 
 ._display_none {display: none;}
@@ -47,6 +47,7 @@ button, input {font-family: 'PT Sans', sans-serif;}
 .btn.green.inset:hover {background: linear-gradient(#128a5e, #23a173);}
 .btn.blue {background: linear-gradient(#54acd0, #1186b7); border: 0;}
 .btn.big {padding: 0 25px 0 25px; height: 53px; line-height: 53px;}
+.btn.big-br {padding: 8px 25px 0 25px; height: 45px; line-height: 16px;}
 
 .hfooter {height: 42px;}
 .footer {height: 42px; background-color: #128a5e; width: 100%; margin: -42px 0 0 0; line-height: 0px;}
@@ -72,6 +73,29 @@ button, input {font-family: 'PT Sans', sans-serif;}
 .security-visitor-dialog h1 {font-size: 32px; font-weight: normal; color: #c81f22; line-height: 23px;}
 .security-visitor-dialog .line {width: 504px; padding: 15px 0 0 0; margin: 0 0 10px 0;}
 .security-visitor-dialog ._left {margin: 0 28px 0 0;}
+
+.system-info-container {margin: auto; background-color: #ffffff; position: absolute; top: 0; left: 0; bottom: 0; right: 0; z-index: 1; width: 740px; height: 335px; text-align: center;}
+.system-info-container h1 {font-size: 32px; font-weight: normal; padding: 0 0 29px 0;}
+.system-info-container ._left {width: 314px;}
+.system-info-container ._right {width: 422px;}
+.system-info-container h2 {background-color: #128a5e; font-weight: normal; font-size: 18px; height: 34px; line-height: 34px; color: #ffffff; display: block;}
+.system-info-container table {width: 100%; border: 1px solid #e1e4e3; border-collapse: collapse;}
+.system-info-container table thead {background-color: #e7e5e5;}
+.system-info-container table th,
+.system-info-container table td {padding: 10px 0 9px 0;}
+.system-info-container table th div,
+.system-info-container table td div {border-left: 1px solid; height: 50px; line-height: 50px;}
+.system-info-container table th:nth-child(1) div,
+.system-info-container table td:nth-child(1) div {border: 0;}
+.system-info-container table thead div {border-color: #c5cac8;}
+.system-info-container table tbody div {border-color: #dcdfde;}
+.system-info-container ._right table thead tr:nth-child(1) td:nth-child(1) div {border-right: 1px solid #c5cac8; height: 50px; line-height: 50px; width: 106px;}
+.system-info-container ._right table thead tr:nth-child(1) td:nth-child(2) div {border: 0; line-height: 16px; height: 1px; position: relative; width: 313px;}
+.system-info-container ._right table thead tr:nth-child(1) td:nth-child(2) div i {display: inline-block; height: 1px; width: 100px; background-color: #c5cac8; margin: 0 4px 4px 4px;}
+.system-info-container table thead tr:nth-child(1) td:nth-child(2) {padding: 0;}
+.system-info-container table thead tr:nth-child(2) td div {height: 26px; line-height: 14px;}
+.system-info-container ._right table thead tr:nth-child(2) td:nth-child(1) div {width: 103px; line-height: 26px;}
+.system-info-container .btn {margin: 40px 0 0 0;}
 
 
 .security-unknown-dialog p,
