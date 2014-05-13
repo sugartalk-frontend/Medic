@@ -68,6 +68,12 @@ button, input {font-family: 'PT Sans', sans-serif;}
 .security-unknown-dialog .line {width: 453px; margin: 0 auto;}
 .security-unknown-dialog p {line-height: 34px; padding: 15px 0 0 0;}
 
+.security-visitor-dialog {border: 3px solid #e5e6e6; width: 769px; height: 401px; padding: 75px 0 75px 90px;}
+.security-visitor-dialog h1 {font-size: 32px; font-weight: normal; color: #c81f22; line-height: 23px;}
+.security-visitor-dialog .line {width: 504px; padding: 15px 0 0 0; margin: 0 0 10px 0;}
+.security-visitor-dialog ._left {margin: 0 28px 0 0;}
+
+
 .security-unknown-dialog p,
 .duty-add-done-dialog p {font-size: 18px;}
 .line {border-bottom: 1px solid #e7e5e5; height: 0;}
