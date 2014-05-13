@@ -179,7 +179,7 @@ a:hover {text-decoration: none;}
 .scroll-content {overflow-y: scroll; position: absolute; bottom: 47px; top: 142px; left: 16px; right: 0; margin: auto;}
 .scroll-content table {width: 1181px; border-collapse: collapse;}
 
-.scroll-content table tbody td {font-size: 15px; line-height: 18px; vertical-align: top; padding: 5px 0 5px 0; border-top: 1px solid #dfe4e2; border-bottom: 1px solid #dfe4e2;}
+.scroll-content table tbody td {font-size: 15px; line-height: 18px; vertical-align: top; padding: 5px 0 5px 0; border-top: 2px solid #dfe4e2; border-bottom: 2px solid #dfe4e2;}
 .scroll-content table tbody td div {border-left: 1px solid #dfe4e2; height: 118px; padding: 10px 0 0 0px; text-align: center;}
 .scroll-content table tbody td:nth-child(1) div {width: 34px;}
 .scroll-content table tbody td:nth-child(2) div {width: 66px;}
