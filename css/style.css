@@ -2,8 +2,9 @@
 
 html, body {height: 100%;}
 
-body {font-family: 'PT Sans', sans-serif; color: #3e3e3e; font-size: 16px;}
+body {font-family: 'PT Sans', sans-serif; color: #3e3e3e; font-size: 16px; counter-reset: section;}
 pre, textarea, button, input {font-family: 'PT Sans', sans-serif;}
+img {border: 0;}
 
 ._display_none {display: none;}
 ._text_center {text-align: center;}
@@ -139,3 +140,11 @@ pre, textarea, button, input {font-family: 'PT Sans', sans-serif;}
 .security-unknown-dialog p,
 .duty-add-done-dialog p {font-size: 18px;}
 .line {border-bottom: 1px solid #e7e5e5; height: 0;}
+
+.doctor-monitor-container {clear: both; overflow: hidden; list-style: none; width: 1110px; margin: 0 auto;}
+.doctor-monitor-container li {border: 2px solid #d4d4d4; height: 134px; line-height: 134px; display: block; width: 356px; color: #0f0f12; float: left; margin: 10px 5px 10px 5px;}
+.doctor-monitor-container li:before {display: block; line-height: 134px; height: 134px; width: 30px; float: left; font-size: 20px; text-align: center; font-family: 'PT Sans', sans-serif; font-weight: bold; counter-increment: section; content: counter(section);}
+.doctor-monitor-container li.green {background-color: #128a5e; border-color: #128a5e; color: #ffffff;}
+.doctor-monitor-container li.grey {background-color: #d4d4d4; border-color: #d4d4d4;}
+.doctor-monitor-container li.red {background-color: #b11212; border-color: #b11212; color: #ffffff;}
+.doctor-monitor-container li div img {margin: 4px 6px 4px 6px;}
