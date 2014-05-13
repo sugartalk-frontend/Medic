@@ -5,6 +5,10 @@ html, body {height: 100%;}
 body {font-family: 'PT Sans', sans-serif;}
 button, input {font-family: 'PT Sans', sans-serif;}
 
+._left {float: left;}
+._right {float: right;}
+.clear {overflow: hidden; clear: both;}
+
 .f18 {font-size: 18px;}
 .w96 {width: 96px;}
 
@@ -39,7 +43,10 @@ button, input {font-family: 'PT Sans', sans-serif;}
 .btn.green.inset:hover {background: linear-gradient(#128a5e, #23a173);}
 
 .hfooter {height: 42px;}
-.footer {height: 34px; background-color: #128a5e; width: 100%; margin: -42px 0 0 0; line-height: 0px;}
+.footer {height: 42px; background-color: #128a5e; width: 100%; margin: -42px 0 0 0; line-height: 0px;}
 
-.footer .logo-footer {display: inline-block; height: 34px; line-height: 42px;}
-.footer .separator {height: 24px; border-left: 1px solid #0d714d; border-right: 1px solid #499479; width: 0; display: inline-block; margin: 9px 17px 9px 17px;}
+.footer ul {list-style: none; overflow: hidden;}
+.footer ul li {float: left; line-height: 42px; color: #ffffff; font-size: 16px; margin-right: 9px; margin-left: 9px;}
+
+.footer .logo-footer {width: 68px; height: 34px; background: url(../images/logo-footer.png) no-repeat 0 0; margin-top: 4px;}
+.footer .separator {height: 24px; border-left: 1px solid #0d714d; border-right: 1px solid #499479; width: 0; margin-top: 9px;}
