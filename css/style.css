@@ -46,6 +46,9 @@ button, input {font-family: 'PT Sans', sans-serif;}
 .btn.green.inset {background: linear-gradient(#23a173, #128a5e); border: 1px solid #0d6746; box-shadow: 1px 1px 0 #45a381, inset 2px 2px 0 #45a381; text-shadow: none;}
 .btn.green.inset:hover {background: linear-gradient(#128a5e, #23a173);}
 .btn.blue {background: linear-gradient(#54acd0, #1186b7); border: 0;}
+.btn.blue:hover {background: linear-gradient(#1186b7, #54acd0);}
+.btn.blue-light {background: linear-gradient(#9dc5d5, #67a0b8); border: 0;}
+.btn.blue-light:hover {background: linear-gradient(#67a0b8, #9dc5d5);}
 .btn.big {padding: 0 25px 0 25px; height: 53px; line-height: 53px;}
 .btn.big-br {padding: 8px 25px 0 25px; height: 45px; line-height: 16px;}
 
@@ -57,6 +60,9 @@ button, input {font-family: 'PT Sans', sans-serif;}
 
 .footer .logo-footer {width: 68px; height: 34px; background: url(../images/logo-footer.png) no-repeat 0 0; margin-top: 4px;}
 .footer .separator {height: 24px; border-left: 1px solid #0d714d; border-right: 1px solid #499479; width: 0; margin-top: 9px;}
+
+.btn-container {clear: both; position: absolute; bottom: 64px; width: 683px;}
+.btn-container ._left {margin: 0 15px 0 0;}
 
 .dialog-window {position: fixed; width: 100%; height: 100%; top: 0; left: 0;}
 .dialog-window .bg-dialog {background: rgba(255, 255, 255, 0.5); width: 100%; height: 100%; position: absolute; z-index: 0;}
@@ -70,9 +76,15 @@ button, input {font-family: 'PT Sans', sans-serif;}
 .security-unknown-dialog p {line-height: 34px; padding: 15px 0 0 0;}
 
 .security-visitor-dialog {border: 3px solid #e5e6e6; width: 769px; height: 401px; padding: 75px 0 75px 90px;}
-.security-visitor-dialog h1 {font-size: 32px; font-weight: normal; color: #c81f22; line-height: 23px;}
 .security-visitor-dialog .line {width: 504px; padding: 15px 0 0 0; margin: 0 0 10px 0;}
 .security-visitor-dialog ._left {margin: 0 28px 0 0;}
+
+.duty-alarm-dialog h1,
+.security-visitor-dialog h1 {font-size: 32px; font-weight: normal; color: #c81f22; line-height: 23px;}
+
+.duty-alarm-dialog {border: 3px solid #c81f22; width: 679px; height: 575px; padding: 0 90px 0 90px;}
+.duty-alarm-dialog h1 {line-height: 82px; text-align: center;}
+.duty-alarm-dialog .grey {color: #7c7c7c; line-height: 50px;}
 
 .system-info-container {margin: auto; background-color: #ffffff; position: absolute; top: 0; left: 0; bottom: 0; right: 0; z-index: 1; width: 740px; height: 335px; text-align: center;}
 .system-info-container h1 {font-size: 32px; font-weight: normal; padding: 0 0 29px 0;}
@@ -96,7 +108,6 @@ button, input {font-family: 'PT Sans', sans-serif;}
 .system-info-container table thead tr:nth-child(2) td div {height: 26px; line-height: 14px;}
 .system-info-container ._right table thead tr:nth-child(2) td:nth-child(1) div {width: 103px; line-height: 26px;}
 .system-info-container .btn {margin: 40px 0 0 0;}
-
 
 .security-unknown-dialog p,
 .duty-add-done-dialog p {font-size: 18px;}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+	<meta charset="UTF-8" />
+	<title></title>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="wspace">
+	<div class="header">
+		<div class="container">
+			<div class="title-head">Поиск сотрудника</div>
+			<div class="head-search-form">
+				<label>Ф.И.О.
+					<input class="input-search-fio" type="text" name="fio" value="Преображенский Константин Митрофанович" />
+				</label>
+				<label>
+					Дата рождения
+				</label>
+				<div class="select-form select-day">
+					<span class="select-text">01</span>
+					<select name="day">
+						<option value="01">01</option>
+						<option value="02">02</option>
+						<option value="03">03</option>
+						<option value="04">04</option>
+						<option value="23">23</option>
+					</select>
+				</div>
+				<div class="select-form select-month">
+					<span class="select-text">января</span>
+					<select name="month">
+						<option value="января">января</option>
+						<option value="декабря">декабря</option>
+					</select>
+				</div>
+				<div class="select-form select-year">
+					<span class="select-text">1972</span>
+					<select name="year">
+						<option value="1972">1972</option>
+					</select>
+				</div>
+				<a type="button" class="btn green bold f18 w96">Найти</a>
+				<a type="button" class="btn green f18 inset">Отмена</a>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="content-dialog duty-alarm-dialog">
+			<h1>Внештатная ситуация</h1>
+			<p class="grey">Место события</p>
+			<p>Рудник “Центральный”, участок №2</p>
+			<p class="grey">Описание события</p>
+			<p>Выявлены признаки опьянения: неуверенные движения и агрессивность. Употребление алкоголя отрицает, приостанавливать работу отказываетя.</p>
+			<div class="clear">
+				<div class="_left">
+					<p class="grey">Ф.И.О. участника</p>
+					<p>Преображенский Константин Митрофанович</p>
+				</div>
+				<div class="_right">
+					<p class="grey">Должность</p>
+					<p>Техник по ременту подъемных машин</p>
+				</div>
+			</div>
+			<p class="grey">Действия дежурного</p>
+			<p>Срочно отстранить от работы и напривить в медпункт.</p>
+			<div class="btn-container">
+				<a class="btn blue big-br bold _left">Напомнить через<br />5 минут</a>
+				<a class="btn blue big-br bold _left">Напомнить через<br />10 минут</a>
+				<a class="btn blue-light big bold _right">Закрыть</a>
+			</div>
+		</div>
+	</div>
+	<div class="hfooter">
+	</div>
+</div>
+<div class="footer">
+	<div class="container">
+		<div class="clear">
+			<ul class="_left">
+				<li class="logo-footer"></li>
+				<li class="separator"></li>
+				<li class="data-time">07:28 12.06.2014</li>
+				<li class="separator"></li>
+				<li>Рудник <b>“Центральный”</b></li>
+			</ul>
+			<ul class="_right">
+				<li>Врач <b>Новоалексеевский Виктор Константинович</b></li>
+				<li><a class="btn green inset">Выход</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
