@@ -14,6 +14,7 @@ button, input {font-family: 'PT Sans', sans-serif;}
 
 .f18 {font-size: 18px;}
 .w96 {width: 96px;}
+.bg-color-grey {background-color: #e7e5e5;}
 
 .wspace {height: auto !important; min-height: 100%;}
 
@@ -58,8 +59,15 @@ button, input {font-family: 'PT Sans', sans-serif;}
 
 .dialog-window {position: fixed; width: 100%; height: 100%; top: 0; left: 0;}
 .dialog-window .bg-dialog {background: rgba(255, 255, 255, 0.5); width: 100%; height: 100%; position: absolute; z-index: 0;}
-.dialog-window .content-dialog {margin: auto; width: 775px; box-shadow: 0 0 9px rgba(0, 0, 0, 0.5); background-color: #ffffff; position: absolute; top: 0; left: 0; bottom: 0; right: 0; z-index: 1;}
-.dialog-window .content-dialog h1 {font-size: 24px; font-weight: normal; line-height: 34px;}
-.dialog-window .content-dialog p {font-size: 18px;}
-.duty-add-done-dialog {padding: 80px 0 40px 0; height: 235px;}
+.content-dialog {margin: auto; box-shadow: 0 0 9px rgba(0, 0, 0, 0.5); background-color: #ffffff; position: absolute; top: 0; left: 0; bottom: 0; right: 0; z-index: 1;}
+.duty-add-done-dialog {padding: 80px 0 40px 0; width: 775px; height: 235px;}
+.duty-add-done-dialog h1 {font-size: 24px; font-weight: normal; line-height: 34px;}
 .duty-add-done-dialog .btn {margin: 94px 0 0 0;}
+.security-unknown-dialog {border: 3px solid #c81f22; width: 859px; height: 481px; padding: 70px 0 0 0;}
+.security-unknown-dialog h1 {font-size: 32px; font-weight: normal; color: #c81f22; line-height: 82px;}
+.security-unknown-dialog .line {width: 453px; margin: 0 auto;}
+.security-unknown-dialog p {line-height: 34px; padding: 15px 0 0 0;}
+
+.security-unknown-dialog p,
+.duty-add-done-dialog p {font-size: 18px;}
+.line {border-bottom: 1px solid #e7e5e5; height: 0;}
