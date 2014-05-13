@@ -64,7 +64,7 @@ button, input {font-family: 'PT Sans', sans-serif;}
 .btn-container {clear: both; position: absolute; bottom: 64px; width: 683px;}
 .btn-container ._left {margin: 0 15px 0 0;}
 
-.dialog-window {position: fixed; width: 100%; height: 100%; top: 0; left: 0;}
+.dialog-window {position: fixed; width: 100%; height: 100%; top: 0; left: 0; z-index: 999;}
 .dialog-window .bg-dialog {background: rgba(255, 255, 255, 0.5); width: 100%; height: 100%; position: absolute; z-index: 0;}
 .content-dialog {margin: auto; box-shadow: 0 0 9px rgba(0, 0, 0, 0.5); background-color: #ffffff; position: absolute; top: 0; left: 0; bottom: 0; right: 0; z-index: 1;}
 .duty-add-done-dialog {padding: 80px 0 40px 0; width: 775px; height: 235px;}
