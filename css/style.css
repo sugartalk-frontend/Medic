@@ -89,6 +89,29 @@ a:hover {text-decoration: none;}
 .security-unknown-dialog .line {width: 453px; margin: 0 auto;}
 .security-unknown-dialog p {line-height: 34px; padding: 15px 0 0 0;}
 
+.personal-card {width: 1208px; height: 785px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); background-color: #ffffff; margin: 20px auto;}
+.personal-card h1 {font-weight: normal; font-size: 24px; line-height: 75px;}
+.personal-card ._left,
+.personal-card ._right {width: 580px; margin: 0 7px 0 7px;}
+.personal-card .personal-info-health-table th,
+.personal-card .personal-info-work-table th,
+.personal-card .personal-info-table th {color: #7c7c7c; font-size: 14px; font-weight: normal; line-height: 18px; text-align: left;}
+.personal-card .personal-info-table th:nth-child(1) {width: 63px;}
+.personal-card .personal-info-table th:nth-child(2) {width: 136px;}
+.personal-card .personal-info-table th:nth-child(3) {width: 89px;}
+.personal-card .personal-info-table th:nth-child(4) {width: 110px;}
+
+.personal-card .personal-info-work-table th {width: 50%;}
+
+.personal-card .personal-info-health-table th:nth-child(1) {width: 170px;}
+.personal-card .personal-info-health-table th:nth-child(2) {width: 117px;}
+.personal-card .personal-info-health-table th:nth-child(3) {width: 170px;}
+
+.personal-card .personal-info-health-table td {color: #7c7c7c; vertical-align: top;}
+.personal-card .personal-info-health-table td span {color: #3e3e3e;}
+
+.personal-card .line {margin: 10px 0;}
+
 .duty-add,
 .security {width: 769px; height: 401px; padding: 75px 0 75px 90px;}
 .duty-add table,
@@ -176,30 +199,32 @@ a:hover {text-decoration: none;}
 .table-head table thead tr:nth-child(2) td:nth-child(2) div {width: 102px; border-right: 1px solid #c5cac8; border-left: 1px solid #c5cac8;}
 .table-head table thead tr:nth-child(2) td:nth-child(3) div {width: 83px;}
 
-.scroll-content {overflow-y: scroll; position: absolute; bottom: 47px; top: 142px; left: 16px; right: 0; margin: auto;}
-.scroll-content table {width: 1181px; border-collapse: collapse;}
+.scroll-content {overflow-y: scroll; position: absolute; bottom: 47px; top: 0; left: 16px; right: 0; margin: auto;}
 
-.scroll-content table tbody td {font-size: 15px; line-height: 18px; vertical-align: top; padding: 5px 0 5px 0; border-top: 2px solid #dfe4e2; border-bottom: 2px solid #dfe4e2;}
-.scroll-content table tbody td div {border-left: 1px solid #dfe4e2; height: 118px; padding: 10px 0 0 0px; text-align: center;}
-.scroll-content table tbody td:nth-child(1) div {width: 34px;}
-.scroll-content table tbody td:nth-child(2) div {width: 66px;}
-.scroll-content table tbody td:nth-child(3) div {width: 150px; text-align: left; padding: 10px 0 0 8px; color: #12788a;}
-.scroll-content table tbody td:nth-child(4) div {width: 93px; text-align: left; padding: 10px 0 0 8px;}
-.scroll-content table tbody td:nth-child(5) div {width: 88px;}
-.scroll-content table tbody td:nth-child(6) div {width: 100px; border: 0;}
-.scroll-content table tbody td:nth-child(7) div {width: 88px; border: 0;}
-.scroll-content table tbody td:nth-child(8) div {width: 68px;}
-.scroll-content table tbody td:nth-child(9) div {width: 77px;}
-.scroll-content table tbody td:nth-child(10) div {width: 64px;}
-.scroll-content table tbody td:nth-child(11) div {width: 51px;}
-.scroll-content table tbody td:nth-child(12) div {width: 70px;}
-.scroll-content table tbody td:nth-child(13) div {width: 43px;}
-.scroll-content table tbody td:nth-child(14) div {width: 60px; border-right: 2px solid #dfe4e2;}
-.scroll-content table tbody td:nth-child(15) div {width: 81px; border-left: 0; border-right: 1px solid #dfe4e2; padding: 0;}
+.scroll-content-table {overflow-y: scroll; position: absolute; bottom: 47px; top: 142px; left: 16px; right: 0; margin: auto;}
+.scroll-content-table table {width: 1181px; border-collapse: collapse;}
 
-.scroll-content table tbody td.green div {background-color: #9ed4af; border-color: #9ed4af;}
-.scroll-content table tbody td.red div {background-color: #f37e80; border-color: #f37e80;}
-.scroll-content table tbody td._text_red {color: #b83133;}
+.scroll-content-table table tbody td {font-size: 15px; line-height: 18px; vertical-align: top; padding: 5px 0 5px 0; border-top: 2px solid #dfe4e2; border-bottom: 2px solid #dfe4e2;}
+.scroll-content-table table tbody td div {border-left: 1px solid #dfe4e2; height: 118px; padding: 10px 0 0 0px; text-align: center;}
+.scroll-content-table table tbody td:nth-child(1) div {width: 34px;}
+.scroll-content-table table tbody td:nth-child(2) div {width: 66px;}
+.scroll-content-table table tbody td:nth-child(3) div {width: 150px; text-align: left; padding: 10px 0 0 8px; color: #12788a;}
+.scroll-content-table table tbody td:nth-child(4) div {width: 93px; text-align: left; padding: 10px 0 0 8px;}
+.scroll-content-table table tbody td:nth-child(5) div {width: 88px;}
+.scroll-content-table table tbody td:nth-child(6) div {width: 100px; border: 0;}
+.scroll-content-table table tbody td:nth-child(7) div {width: 88px; border: 0;}
+.scroll-content-table table tbody td:nth-child(8) div {width: 68px;}
+.scroll-content-table table tbody td:nth-child(9) div {width: 77px;}
+.scroll-content-table table tbody td:nth-child(10) div {width: 64px;}
+.scroll-content-table table tbody td:nth-child(11) div {width: 51px;}
+.scroll-content-table table tbody td:nth-child(12) div {width: 70px;}
+.scroll-content-table table tbody td:nth-child(13) div {width: 43px;}
+.scroll-content-table table tbody td:nth-child(14) div {width: 60px; border-right: 2px solid #dfe4e2;}
+.scroll-content-table table tbody td:nth-child(15) div {width: 81px; border-left: 0; border-right: 1px solid #dfe4e2; padding: 0;}
+
+.scroll-content-table table tbody td.green div {background-color: #9ed4af; border-color: #9ed4af;}
+.scroll-content-table table tbody td.red div {background-color: #f37e80; border-color: #f37e80;}
+.scroll-content-table table tbody td._text_red {color: #b83133;}
 
 
 .doctor-monitor-container {clear: both; overflow: hidden; list-style: none; width: 1110px; margin: 0 auto;}
