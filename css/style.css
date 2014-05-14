@@ -330,6 +330,12 @@ a:hover {text-decoration: none;}
 
 .personal-card .btn-container {margin: 16px 0 0 0;}
 
+.traffic-light-container {width: 768px; margin: 0 auto 0 auto; padding: 45px 0 0 0;}
+.traffic-light-container ul {list-style: none; clear: both; margin: 0 -8px 0 -8px;}
+.traffic-light-container ul .traffic-light {display: block; float: left; width: 180px; height: 180px; background: url(../images/traffic-light.jpg) no-repeat 0 0; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); margin: 8px 8px 8px 8px; position: relative;}
+.traffic-light-container ul .traffic-light.busy {background-position: -180px 0;}
+.traffic-light-container ul .traffic-light:before {display: block; width: 35px; line-height: 35px; height: 35px; font-size: 30px; text-align: center; font-family: 'PT Sans', sans-serif; counter-increment: section; content: counter(section); position: absolute; top: 4px; left: 4px; background-color: #ffffff;}
+
 .btn-container {clear: both;}
 .duty-alarm-dialog .btn-container {position: absolute; bottom: 64px; width: 683px;}
 .btn-container ._left {margin: 0 15px 0 0; width: auto;}
