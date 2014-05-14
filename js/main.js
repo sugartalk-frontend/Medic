@@ -24,7 +24,8 @@
 		closeSetup: 'close-setup',
 		setupPopup: 'setup-popup',
 		setupWheel: 'setup-wheel',
-		displayNone: '_display_none'
+		displayNone: '_display_none',
+		dialogWindow: 'dialog-window'
 	};
 
 	var ids = {};
@@ -66,7 +67,7 @@
 			return false;
 		});
 
-		$closeSetup.on('click', function(e){
+		$closeSetup.on('click', function(){
 			$(this).closest(selectors.setupPopup).hide();
 		});
 
@@ -82,6 +83,6 @@
 	});
 
 	function closeDialog() {
-		$('.dialog-window').addClass(classNames.displayNone);
+		$(selectors.dialogWindow).addClass(classNames.displayNone);
 	}
 })();
