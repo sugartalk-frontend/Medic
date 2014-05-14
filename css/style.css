@@ -76,7 +76,7 @@ a:hover {text-decoration: none;}
 .footer .separator {height: 24px; border-left: 1px solid #0d714d; border-right: 1px solid #499479; width: 0; margin-top: 9px;}
 
 .dialog-window {position: fixed; width: 100%; height: 100%; top: 0; left: 0; z-index: 999;}
-.dialog-window .bg-dialog {background: rgba(255, 255, 255, 0.5); width: 100%; height: 100%; position: absolute; z-index: 0;}
+.dialog-window .bg-dialog {background: rgba(255, 255, 255, 0.5); width: 100%; height: 100%; position: absolute; z-index: 0; overflow-y: auto;}
 .content-dialog {margin: auto; box-shadow: 0 0 9px rgba(0, 0, 0, 0.5); background-color: #ffffff; position: absolute; top: 0; left: 0; bottom: 0; right: 0; z-index: 1;}
 .duty-add-done-dialog {padding: 80px 0 40px 0; width: 775px; height: 235px;}
 .duty-add-done-dialog h1 {font-size: 24px; font-weight: normal; line-height: 34px;}
@@ -85,6 +85,17 @@ a:hover {text-decoration: none;}
 .security-unknown-dialog h1 {font-size: 32px; font-weight: normal; color: #c81f22; line-height: 82px;}
 .security-unknown-dialog .line {width: 453px; margin: 0 auto;}
 .security-unknown-dialog p {line-height: 34px; padding: 15px 0 0 0;}
+
+.doctor-referral-dialog {width: 703px; height: 746px; padding: 20px 20px 20px 20px;}
+.doctor-referral-dialog h1 {text-align: center; font-size: 18px; font-weight: normal; line-height: 18px;}
+.doctor-referral-dialog p {line-height: 20px;}
+.doctor-referral-dialog .line {margin: 20px 0 10px 0;}
+.doctor-referral-dialog ._left {margin: 0 40px 0 0;}
+.doctor-referral-dialog .line-separator {width: 1px; height: 55px; background-color: #e7e5e5; float: left; margin: 0 25px 0 0;}
+.doctor-referral-dialog .grey {font-size: 14px; color: #7c7c7c; line-height: 30px;}
+.doctor-referral-dialog .doctor ._left {margin: 0 150px 0 0;}
+.doctor-referral-dialog .doctor p {line-height: 35px;}
+.doctor-referral-dialog .btn {margin: 15px 50px 0 0;}
 
 .personal-card {width: 1208px; height: 785px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); background-color: #ffffff; margin: 20px auto;}
 .personal-card h1 {font-weight: normal; font-size: 24px; line-height: 75px;}
@@ -170,6 +181,7 @@ a:hover {text-decoration: none;}
 .security-unknown-dialog p,
 .duty-add-done-dialog p {font-size: 18px;}
 .line {border-bottom: 1px solid #e7e5e5; height: 0;}
+.line._2px {border-bottom-width: 2px;}
 
 .table-head {background-color: #e7e5e5; width: 100%; height: 80px; box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15), inset 0 5px 5px rgba(0, 0, 0, 0.30);}
 .table-head table {width: 1181px; border-collapse: collapse;}
