@@ -295,7 +295,9 @@ a:hover {text-decoration: none;}
 .table-info table thead tr:nth-child(1) td:nth-child(7) div {border: 0;}
 
 .table-info p.title {margin: 4px 5px 0 4px; padding: 0 0 0 12px; background-color: #e7e5e5; height: 32px; line-height: 32px;}
+.table-info textarea,
 .table-info .scroll-text {margin: 3px 5px 10px 11px; overflow-y: scroll; height: 94px;}
+.table-info textarea.scroll-text {width: 557px; padding: 0 0 0 10px; margin: 3px 5px 10px 4px; font-size: 16px; color: #3e3e3e; resize: none;}
 
 .personal-photo {list-style: none; text-align: center; float: right; margin: 37px 0 0 0;}
 .personal-photo li {float: left; margin: 0 0 0 21px;}
